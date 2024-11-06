@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interactive doc with Scala.js</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Scala.js program embedded in your document</h1>
+      <div id="hello"></div>
+      <script>PutMyScriptHere</script>
+      <script> MyApp.main("hello"); </script>
+    </div>
+  </section>
+</body>
